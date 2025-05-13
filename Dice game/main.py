@@ -79,6 +79,6 @@ def main():
                     print(f"\n Ops!, It's a draw")
                     print(f"\n scores: \n {player1_name} score: {score1} \n {player2_name} score: {score2} ")
     except Exception as e:
-        return "Please Try Again, e"
+        return "Please Try Again: ",e
     
 main()
